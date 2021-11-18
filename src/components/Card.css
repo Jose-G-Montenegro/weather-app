@@ -1,0 +1,62 @@
+.card {
+  margin: 2vh;
+  display: flex;
+  border: 2px solid rgb(47, 47, 47);
+  flex-direction: column;
+  width: 35vh;
+  height: 25vh;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 10px;
+  color: beige;
+  border-bottom: 2px black;
+}
+
+/* .card:hover {
+  background-color: black;
+  width: 30vh;
+  height: 20vh;
+  animation: desliza 1s 0.5s 1 alternate, desaparece 1s 0.5s 1 backwards;
+  color: white;
+  font-size: 20px;
+  transition: margin-left 4s;
+} */
+
+.button {
+  background-color: red;
+  color: white;
+  border-bottom: white;
+  width: 30px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.card-title {
+  margin-bottom: 1vh;
+  font-size: 3vh
+}
+
+#closeIcon {
+  display: flex;
+  justify-content:space-between;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.card-body {
+  margin-top: 1vh !important;
+  padding-top: 0px !important;
+}
+
+.temp {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  margin-top: 3vh;
+}
+
+.iconoClima {
+  height: 8.5vh;
+  width: 8.5vh;
+}

@@ -1,0 +1,40 @@
+.container {
+    margin-top: 15vh;
+    color: black;
+    opacity: 0.8;
+    width: 50vh;
+    height: 70vh;
+}
+
+.title {
+    color: #000000;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 6vh;
+}
+
+.info {}
+
+h3 {
+    font-size: 3vh;
+}
+
+.individual {
+    display: flex;
+    justify-content: space-between;
+    font-size: 4vh;
+}
+
+#back {
+    height: 4vh;
+    width: 8vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+    /* opacity: 0.8; */
+    background: black;
+    color: #ffffff;
+}
+
+#back:hover{
+    background-color: rgb(131, 11, 11);
+}

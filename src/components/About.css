@@ -1,0 +1,17 @@
+.text{
+    font-family: Verdana;
+    font-style: oblique;
+    font-size: medium;
+    width: auto;
+    height: auto;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.all{
+    height: 800px;
+    width: auto;
+}
+h3{
+    font-style: italic;
+}
