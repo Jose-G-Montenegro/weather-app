@@ -18,12 +18,11 @@ export default function About() {
                   <li className='li1'>React</li>
                </ul>
             </h2>
-
             <h3 classname="cont">Contactame</h3>
             <ul className='ul2'>
-               <li ><a className='li2' href="https://github.com/Jose-G-Montenegro" target="_blank">Github</a></li>
-               <li ><a className='li2' href="mailto:jocho1990@hotmail.com?Subject=Interesado%20en%20sus%20servicios" target="_blank">E-Mail</a></li>
-               <li ><a className='li2' href="https://www.linkedin.com/in/jos%C3%A9-montenegro94" target="_blank">LinkedIn</a></li>
+               <li ><button className='li2' href="https://github.com/Jose-G-Montenegro" target="_blank">Github</button></li>
+               <li ><button className='li2' href="mailto:jocho1990@hotmail.com?Subject=Interesado%20en%20sus%20servicios" target="_blank">E-Mail</button></li>
+               <li ><button className='li2' href="https://www.linkedin.com/in/jos%C3%A9-montenegro94" target="_blank">LinkedIn</button></li>
             </ul>
          </div>
       </div>
