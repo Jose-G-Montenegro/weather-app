@@ -1,12 +1,15 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router";
 
 export default function SearchBar({onSearch}) {
+  const history = useHistory();
   const [city, setCity] = useState("");
   return (
     <form onSubmit={(e) => {
       e.preventDefault();
       onSearch(city);
       setCity('')
+      history.push('/')
     }}>
       <input
         type="text"

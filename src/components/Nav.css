@@ -1,3 +1,16 @@
 #logoHenry {
   margin-right: 20px;
 }
+.about{
+  color: white;
+  text-decoration: none;
+}
+.about:hover{
+  color: yellow;
+  text-decoration: none;
+}
+
+#abt{
+  font-size: 3vh;
+  margin: 0vh;
+}

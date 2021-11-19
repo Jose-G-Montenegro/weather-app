@@ -10,11 +10,11 @@ function Nav({onSearch}) {
       <Link to='/'>
         <span className="navbar-brand">
           <img id="logoHenry" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="" />
-           ClimApp
+           Wheather App
         </span>
       </Link>
-      <Link to='/about'>
-        <span>About</span>
+      <Link to='/about' className='about'>
+        <h2 id='abt' >About</h2>
       </Link>
         <SearchBar
           onSearch={onSearch}

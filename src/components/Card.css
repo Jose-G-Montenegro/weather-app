@@ -25,10 +25,10 @@
 .button {
   background-color: red;
   color: white;
-  border-bottom: white;
-  width: 30px;
-  border-radius: 5px;
-  align-self: flex-end;
+  border: none;
+  width: 4vh;
+  height: 3.5vh;
+  border-radius: 1vh;
 }
 
 .card-title {
@@ -38,7 +38,7 @@
 
 #closeIcon {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-right: 8px;
   margin-top: 8px;
   margin-left: 15px;

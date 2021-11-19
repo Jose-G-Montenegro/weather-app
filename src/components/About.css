@@ -1,17 +1,55 @@
-.text{
-    font-family: Verdana;
-    font-style: oblique;
-    font-size: medium;
-    width: auto;
-    height: auto;
+.text {
     display: flex;
     color: black;
-    justify-content: center;
+    flex-direction: column;
+    font-size: 3vh;
 }
-.all{
-    height: 800px;
-    width: auto;
+
+.all {
+    margin: 5vh;
 }
-h3{
-    font-style: italic;
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    font-size: 3vh;
+}
+
+.ul2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh;
+    font-size: 3vh;
+}
+
+.cont {
+    font-size: 3vh;
+}
+.stack{
+    font-size: 3vh;
+}
+
+.li1 {
+    margin-top: 1vh;
+    font-style: oblique;
+    font-weight: 900;
+}
+.li2{
+    color: #b92424;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.li2:hover{
+    color: #070000;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+ul{
+    padding: 0vh;
 }
