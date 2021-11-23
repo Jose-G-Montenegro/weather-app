@@ -37,6 +37,7 @@ function App() {
           !!cities.find(e => e.name === ciudad.name) ?
             alert("Ciudad ya agregada") :
             setCities(oldCities => [...oldCities, ciudad]);
+            console.log(cities)
         }
         else {
           alert("Ciudad no encontrada");

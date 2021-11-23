@@ -8,8 +8,9 @@ export default function SearchBar({onSearch}) {
     <form onSubmit={(e) => {
       e.preventDefault();
       onSearch(city);
-      setCity('')
-      history.push('/')
+      setCity('');
+      console.log(city);
+      history.push('/');
     }}>
       <input
         type="text"

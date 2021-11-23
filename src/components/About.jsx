@@ -20,9 +20,9 @@ export default function About() {
             </h2>
             <h3 classname="cont">Contactame</h3>
             <ul className='ul2'>
-               <li ><button className='li2' href="https://github.com/Jose-G-Montenegro" target="_blank">Github</button></li>
-               <li ><button className='li2' href="mailto:jocho1990@hotmail.com?Subject=Interesado%20en%20sus%20servicios" target="_blank">E-Mail</button></li>
-               <li ><button className='li2' href="https://www.linkedin.com/in/jos%C3%A9-montenegro94" target="_blank">LinkedIn</button></li>
+               <li ><a className='li2' href="https://github.com/Jose-G-Montenegro" target="_blank" rel="noreferrer">Github</a></li>
+               <li ><a className='li2' href="mailto:jocho1990@hotmail.com?Subject=Interesado%20en%20sus%20servicios" target="_blank" rel="noreferrer">E-Mail</a></li>
+               <li ><a className='li2' href="https://www.linkedin.com/in/jos%C3%A9-montenegro94" target="_blank" rel="noreferrer">LinkedIn</a></li>
             </ul>
          </div>
       </div>
