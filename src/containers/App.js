@@ -17,7 +17,7 @@ function App() {
   }
   async function onSearch(ciudad) {
     //Llamado a la API del clima
-    var response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`);
+    var response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`);
     var recurso = response.data;
     console.log(recurso)
     if (recurso.main !== undefined) {
