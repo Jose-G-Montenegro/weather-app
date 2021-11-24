@@ -9,7 +9,6 @@ export default function SearchBar({onSearch}) {
       e.preventDefault();
       onSearch(city);
       setCity('');
-      console.log(city);
       history.push('/');
     }}>
       <input
